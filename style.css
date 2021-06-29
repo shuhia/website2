@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto Mono; /* funkar ej :( Det funkade, hade glömt stylesheet */
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding:  20px 20px;
+    background-color: pink;
+    color: white;
+    justify-content: space-between;
+    align-items: center; /* vertical alignment, makes them align to center */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.art-showcase {
+    background-color: white;
+}
+
+.hero {
+    background-color: white;
+}
+
+img {
+
+    display: flex;
+    /* max-width: 50%; */
+    /* margin: 20px; */
+    
+    
+    
+}
+
+.img-link-inner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+}
+
+.img-header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex; /* makes the list align horisontally */
+    color: papayawhip; /* colors the bullets of list */
+    list-style: none; /* removes bullets */
+    font-weight: bold;
+    
+}
+
+.nav a {
+    color:snow;
+    text-decoration: none; /* Underline from link */
+    display: block; /* why did we use this ?? */
+    transition: all 0.3s ease-out;
+
+}
+
+.nav a:hover {
+    color:navajowhite;
+    transform: scale(120%);
+    
+  }
+
+.nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: pink;
+    padding: 20px 0;
+    text-align: center; /* not using align-items because we only have text here. Only works on text. */
+    font-size: .9rem;
+}
