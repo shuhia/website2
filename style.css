@@ -16,7 +16,6 @@ body {
   flex-wrap: wrap;
   /* flex-direction: column; */
   position: -webkit-sticky;
-
   position: sticky;
   top: 0;
 }
@@ -27,6 +26,23 @@ body {
 
 .hero {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.img-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: palevioletred;
+}
+
+.hero-img {
+  height: 200px;
 }
 
 main {
