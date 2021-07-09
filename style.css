@@ -7,17 +7,19 @@ body {
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* create 3 columns with equals size*/
+
   padding: 20px 20px;
   background-color: #eb7cb7;
   color: white;
-  justify-content: space-between;
   align-items: center; /* vertical alignment, makes them align to center */
-  flex-wrap: wrap;
+
   /* flex-direction: column; */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  text-align: center;
 }
 
 .art-showcase {
@@ -102,7 +104,7 @@ img {
 }
 
 .logo-container {
-  margin: 20px;
+  margin-left: 20px;
 }
 .logo-img {
   width: 50px;
@@ -118,4 +120,14 @@ img {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+/* Containers! */
+
+.container-left {
+  padding: 10px;
+}
+.container-center {
+}
+.container-right {
 }
