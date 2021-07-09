@@ -2,6 +2,8 @@ body {
   font-family: Roboto Mono; /* funkar ej :( Det funkade, hade glömt stylesheet */
   padding: 0;
   margin: 0;
+
+  /**/
 }
 
 .header {
@@ -13,6 +15,10 @@ body {
   align-items: center; /* vertical alignment, makes them align to center */
   flex-wrap: wrap;
   /* flex-direction: column; */
+  position: -webkit-sticky;
+
+  position: sticky;
+  top: 0;
 }
 
 .art-showcase {
@@ -21,6 +27,10 @@ body {
 
 .hero {
   background-color: white;
+}
+
+main {
+  height: 200vh;
 }
 
 img {
@@ -40,6 +50,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 300px;
+  background-color: palevioletred;
 }
 
 .header-img {
@@ -77,4 +88,8 @@ img {
   padding: 20px 0;
   text-align: center; /* not using align-items because we only have text here. Only works on text. */
   font-size: 0.9rem;
+  /**/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
