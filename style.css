@@ -1,3 +1,11 @@
+/* Inne i root deklerares alla variabler*/
+:root {
+  /*En variabel deklareras med --[namn]:[värde];*/
+  /* För att använda en variabel så skriver du som exempel: padding:var(--[namn])*/
+
+  --header-height: 75px;
+}
+
 body {
   font-family: Roboto Mono; /* funkar ej :( Det funkade, hade glömt stylesheet */
   padding: 0;
@@ -20,7 +28,8 @@ body {
   position: sticky;
   top: 0;
   text-align: center;
-  height: 75px;
+  height: var(--header-height);
+  transition: 1s ease-in-out;
 }
 
 .art-showcase {
@@ -94,6 +103,11 @@ img {
   background: #e4509f;
 
   text-transform: capitalize; /* Makes all words begin with a capital letter*/
+}
+
+.header-up {
+  position: relative;
+  top: -(var(--header-height));
 }
 
 .nav a:hover {
