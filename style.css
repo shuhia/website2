@@ -1,5 +1,7 @@
+@import "main.css";
+
 /* Inne i root deklerares alla variabler*/
-:root {
+:root  {
   /*En variabel deklareras med --[namn]:[värde];*/
   /* För att använda en variabel så skriver du som exempel: padding:var(--[namn])*/
 
