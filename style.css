@@ -1,7 +1,7 @@
 @import "main.css";
 
 /* Inne i root deklerares alla variabler*/
-:root  {
+:root {
   /*En variabel deklareras med --[namn]:[värde];*/
   /* För att använda en variabel så skriver du som exempel: padding:var(--[namn])*/
 
@@ -142,6 +142,13 @@ img {
   position: fixed;
   bottom: 0;
   width: 100%;
+  transition: 0.5s ease-in;
+}
+
+.footer-down {
+  position: fixed;
+  bottom: 0;
+  transform: translateY(calc(1 * 2 * 100px));
 }
 
 /* Containers! */

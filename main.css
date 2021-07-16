@@ -1,5 +1,11 @@
 .side-image {
   position: fixed;
+  top: 50%;
+  right: 0;
+}
+
+.side-nav {
+  position: fixed;
   top: 10%;
   left: 0;
 }
