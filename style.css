@@ -32,7 +32,11 @@ body {
   top: 0;
   text-align: center;
   height: var(--header-height);
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-out;
+}
+
+.header-up {
+  transform: translateY(calc(-1 * 2 * var(--header-height)));
 }
 
 .art-showcase {
@@ -106,10 +110,6 @@ img {
   background: #e4509f;
 
   text-transform: capitalize; /* Makes all words begin with a capital letter*/
-}
-
-.header-up {
-  top: -(var(--header-height));
 }
 
 .nav a:hover {
