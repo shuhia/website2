@@ -4,13 +4,16 @@
   /* För att använda en variabel så skriver du som exempel: padding:var(--[namn])*/
 
   --header-height: 75px;
+  --primary: pink;
+  --secondary: palevioletred;
+  --background: white;
 }
 
 body {
   font-family: Roboto Mono; /* funkar ej :( Det funkade, hade glömt stylesheet */
   padding: 0;
   margin: 0;
-  background-color: lightgrey;
+  background-color: var(--background);
   /**/
 }
 
@@ -19,7 +22,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr; /* create 3 columns with equals size*/
 
   padding: 20px 20px;
-  background-color: palevioletred;
+  background-color: var(--primary);
   color: white;
   align-items: center; /* vertical alignment, makes them align to center */
 
@@ -106,7 +109,6 @@ img {
 }
 
 .header-up {
-  position: relative;
   top: -(var(--header-height));
 }
 
@@ -130,7 +132,7 @@ img {
 }
 
 .footer {
-  background-color: pink;
+  background-color: var(--primary);
   padding: 20px 0;
   text-align: center; /* not using align-items because we only have text here. Only works on text. */
   font-size: 0.9rem;
@@ -144,8 +146,4 @@ img {
 
 .container-left {
   padding: 10px;
-}
-.container-center {
-}
-.container-right {
 }
