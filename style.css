@@ -156,3 +156,11 @@ img {
 .container-left {
   padding: 10px;
 }
+
+/* Global styles */
+
+.flex-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
