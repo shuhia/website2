@@ -9,3 +9,9 @@
   top: 10%;
   left: 0;
 }
+
+.side-nav-scrollUp {
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+}

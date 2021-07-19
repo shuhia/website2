@@ -7,44 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YAYEEEEET</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <!-- very important, dont forget this xD -->
     <link rel="icon" href="images/kirbypixelstar_trans2.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="header">
+    <header class="flex-box-container">
       <!-- skapar en sektion och en klass som heter header -->
-
-      <div class="container-left">
-        <a href="index.html" class="logo-container"><img class="logo-img" src="./images/logo.png" /></a>
-      </div>
-
-      <div class="container-center">
-        <h1>The best color is pink &#60;3</h1>
-      </div>
-
-      <div class="container-right">
-        <ul class="nav">
+      <nav>
+        <a href="index.html" class="logo"><img class="logo-img" src="./images/logo.png" /></a>
+        <ul>
           <li><a href="index.html"> Home </a></li>
           <li><a href="about.html"> About </a></li>
           <li><a href="all_art.html"> All art </a></li>
           <li><a href="other.html">Other fun things</a></li>
         </ul>
-      </div>
-    </div>
+      </nav>
+      <main className="hero flex-box-container-column">
+        <h1 className="hero-title">The best color is pink &#60;3</h1>
 
-    <!-- Här kan du lägga in content-->
-    <main>
-      <div class="Hero">
-        <div class="img-hero">
-          <a class="img-link-inner" href="https://riddle.nu/" target="_blank" rel="noopener noreferrer">
-            <img class="hero-img" src="images/kirbyknife.jpg" alt="Plushie Kirby holding a knife smiling." />
-          </a>
-        </div>
-        <div class="hero-inner">
-          <p>Hello, this is my awesome webpage</p>
+        <a class="img-link-container" href="https://riddle.nu/" target="_blank" rel="noopener noreferrer">
+          <img class="hero-img" src="images/kirbyknife.jpg" alt="Plushie Kirby holding a knife smiling." />
+        </a>
+
+        <div class="hero-content">
+          <h2>Hello, this is my awesome webpage</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             eaque vel, corrupti ratione aliquid officiis esse quo natus ex
@@ -52,16 +41,70 @@
             ducimus praesentium?
           </p>
         </div>
-      </div>
-      <div class="art-showcase">
-        <p>Future art showcase =)</p>
-
-        <div class="showcase-inner"></div>
-      </div>
+      </main>
+    </header>
+    <main>
+      <section class="article-container">
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+        <article class="art-showcase">
+          <h1>Article</h1>
+          <h2>Further art showcase</h2>
+          <image src=".\images\kirbypixelstar_trans2.png"></image>
+          <p>Do do voluptate cillum ad dolor ipsum duis aliqua enim. Ex consectetur enim velit cupidatat officia officia
+            aliqua tempor ex. Aute incididunt eiusmod Lorem deserunt excepteur id commodo commodo irure minim esse et
+            esse.</p>
+          <div class="showcase-inner"></div>
+        </article>
+      </section>
     </main>
-    <div class="footer">
+
+    <footer class="flex-box-container">
       <p>&copy; 2021 Happy company</p>
-    </div>
+    </footer>
     <script src="scripts.js"></script>
 
   </body>

@@ -1,5 +1,7 @@
 @import "main.css";
 
+/* GLOBAL STYLES */
+
 /* Inne i root deklerares alla variabler*/
 :root {
   /*En variabel deklareras med --[namn]:[värde];*/
@@ -16,7 +18,22 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--background);
+  height: 100%;
+  width: 100%;
   /**/
+}
+
+main {
+  height: 400vh;
+  margin: 0 400px;
+  padding: 20px;
+  background-color: White;
+}
+
+img {
+  display: flex;
+  /* max-width: 50%; */
+  /* margin: 20px; */
 }
 
 .header {
@@ -63,19 +80,6 @@ body {
 
 .hero-img {
   height: 200px;
-}
-
-main {
-  height: 400vh;
-  margin: 0 400px;
-  padding: 20px;
-  background-color: White;
-}
-
-img {
-  display: flex;
-  /* max-width: 50%; */
-  /* margin: 20px; */
 }
 
 .img-link-inner {
@@ -155,4 +159,13 @@ img {
 
 .container-left {
   padding: 10px;
+}   
+
+/* Global styles */
+
+.flex-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
